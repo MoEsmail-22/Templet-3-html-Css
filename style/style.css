@@ -2344,3 +2344,45 @@ footer .copyright samp {
   font-weight: bold;
   font-size: 20px;
 }
+
+/* Scroll-to-top */
+
+.to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background-color: var(--mainColor);
+  padding: 10px 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: var(--main-transition-duration);
+  -webkit-transition: var(--main-transition-duration);
+  -moz-transition: var(--main-transition-duration);
+  -ms-transition: var(--main-transition-duration);
+  -o-transition: var(--main-transition-duration);
+  z-index: 100;
+}
+
+.to-top a {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.to-top i {
+  transition: var(--main-transition-duration);
+  -webkit-transition: var(--main-transition-duration);
+  -moz-transition: var(--main-transition-duration);
+  -ms-transition: var(--main-transition-duration);
+  -o-transition: var(--main-transition-duration);
+}
+
+.to-top:hover {
+  background-color: #1877f2;
+  i {
+    transform: translateY(-5px);
+    -webkit-transform: translateY(-5px);
+    -moz-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    -o-transform: translateY(-5px);
+  }
+}

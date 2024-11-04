@@ -1672,7 +1672,9 @@ header .magamenu ul li:hover .container {
     margin-bottom: 20px;
   }
   .events form input[type="submit"] {
-    width: 100%;
+       width: 60%;
+       align-self: end;
+       padding: 15px;
   }
 }
 
@@ -1967,7 +1969,8 @@ header .magamenu ul li:hover .container {
     width: 100%;
   }
   .video .video-box p {
-    padding: 10px;
+           padding: 13px;
+        font-size: 13px;
   }
 }
 
@@ -2188,15 +2191,15 @@ header .magamenu ul li:hover .container {
   }
 
   .discount h2 {
-    font-size: 30px;
-    margin-bottom: 20px;
+        font-size: 28px;
+        margin-bottom: 13px;
   }
   .discount .change p {
     text-align: left;
   }
 
   .discount .request form {
-    width: 100%;
+    width: 90%;
   }
 
   .discount .request input,
@@ -2344,6 +2347,7 @@ footer .copyright {
   justify-content: center;
   border-top: 1px solid #444;
   color: #fff;
+ text-align: center;
 }
 
 footer .copyright samp {

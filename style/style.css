@@ -1530,6 +1530,12 @@ header .magamenu ul li:hover .container {
   position: relative;
 }
 
+@media (max-width: 991px) {
+  .events .box {
+    margin-left: 10px;
+  }
+}
+
 .events .box:hover {
   border-color: var(--mainColor);
 }
@@ -1666,7 +1672,7 @@ header .magamenu ul li:hover .container {
     margin-bottom: 20px;
   }
   .events form input[type="submit"] {
-    width: 50%;
+    width: 100%;
   }
 }
 
